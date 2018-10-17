@@ -1,4 +1,4 @@
-#Linear Regression
+# Linear Regression
 
 It is one of the most widely known modeling technique. Linear regression is usually among the first few topics which people pick
 while learning predictive modeling. In this technique, the dependent variable is continuous, independent variable(s)
@@ -7,7 +7,7 @@ can be continuous or discrete, and nature of regression line is linear.
 Linear Regression establishes a relationship between dependent variable (Y) and one or more independent variables (X)
 using a best fit straight line (also known as regression line).
 
-#Ridge Regression
+# Ridge Regression
 
 Ridge Regression is a technique used when the data suffers from multicollinearity ( independent variables are highly correlated).
 In multicollinearity, even though the least squares estimates (OLS) are unbiased, their variances are large which deviates the observed value
@@ -25,16 +25,16 @@ In a linear equation, prediction errors can be decomposed into two sub component
 
 Ridge regression solves the multicollinearity problem through shrinkage parameter λ (lambda). Look at the equation below.
 
-###Ridge
+### Ridge
 
 In this equation, we have two components. First one is least square term and other one is lambda of the summation of β2 (beta- square) where β is the coefficient. This is added to least square term in order to shrink the parameter to have a very low variance.
 
 Important Points:
-•The assumptions of this regression is same as least squared regression except normality is not to be assumed
-•It shrinks the value of coefficients but doesn’t reaches zero, which suggests no feature selection feature
-•This is a regularization method and uses l2 regularization.
+- The assumptions of this regression is same as least squared regression except normality is not to be assumed
+- It shrinks the value of coefficients but doesn’t reaches zero, which suggests no feature selection feature
+- This is a regularization method and uses l2 regularization.
 
-#Lasso Regression
+# Lasso Regression
 
 Similar to Ridge Regression, Lasso (Least Absolute Shrinkage and Selection Operator) also penalizes the absolute size of the regression coefficients.
 In addition, it is capable of reducing the variability and improving the accuracy of linear regression models.
@@ -51,7 +51,7 @@ Important Points:
 
 ---
 
-#This project
+# This project
 
 ### Linear regression on relationship of scores and sales
 
@@ -66,7 +66,7 @@ It was a logical relationship. Amount of Sales in North America and Europe can g
 Based on Defenition of Ridge and Lasso and try both of them but it was obvious that Ridge was better method because i got lower RMSE in alfa = 1 in both algorithm. by alfa = 0.0002, RMSE in both is equal.
 
 
-##Regression coefficients
+## Regression coefficients
 
 Regression coefficients are estimates of the unknown population parameters and describe the relationship between a predictor variable and the response. In linear regression, coefficients are the values that multiply the predictor values.
 
